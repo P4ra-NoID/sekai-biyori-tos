@@ -2,14 +2,62 @@
 <html lang="ja">
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>せかいびより</title>
-</head>
-<body>
-  <h1>せかいびより</h1>
 
-  <ul>
-    <li><a href="./terms-of-service.html">利用規約</a></li>
-    <li><a href="./privacy-policy.html">プライバシーポリシー</a></li>
-  </ul>
+  <style>
+    body {
+      margin: 0;
+      font-family: "Noto Sans JP", sans-serif;
+      background: #f6f1e6; /* クリーム色 */
+      color: #2b2b2b;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+    }
+
+    .container {
+      background: #fffaf0;
+      padding: 32px;
+      border-radius: 12px;
+      width: min(600px, 90%);
+      box-shadow: 0 8px 30px rgba(0,0,0,0.08);
+      text-align: center;
+    }
+
+    h1 {
+      margin-top: 0;
+      font-size: 24px;
+    }
+
+    a {
+      display: block;
+      margin: 12px 0;
+      color: #4a6fa5;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    p {
+      font-size: 14px;
+      opacity: 0.7;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <h1>せかいびより</h1>
+
+    <a href="./terms-of-service.html">利用規約</a>
+    <a href="./privacy-policy.html">プライバシーポリシー</a>
+
+    <p>このサーバーのルール・ポリシーはこちら</p>
+  </div>
 </body>
 </html>
